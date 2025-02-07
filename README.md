@@ -30,8 +30,8 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://your-solution-url.com)
+- Live Site URL: (https://your-live-site-url.com)
 
 - ### Built with
 
@@ -43,5 +43,5 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 - ## Author
 
-- Website - https://grinchcreator.github.io/Personal-Website/)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/grinchcreator)
+- Website - [@Grinchcreator] (https://grinchcreator.github.io/Personal-Website/)
+- Frontend Mentor - [@Grinchcreator](https://www.frontendmentor.io/profile/grinchcreator)
