@@ -1,0 +1,165 @@
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+article > * + * {
+  margin-top: 1em;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+:root{
+ /*Colors*/    
+
+  /*primary*/
+
+ --DarkCyan: hsl(185, 75%, 39%);
+ --VeryDarkBlue: hsl(229, 23%, 23%);
+ --DarkGray: hsl(227, 10%, 46%);
+
+ /*neutral*/
+
+ --DarkGray: hsl(0, 0%, 59%);
+}
+
+span{
+ color: var(--DarkGray);
+ font-size: 18px;
+ font-weight: 400;
+}
+
+p{
+ color: var(--DarkGray);
+ font-size: 15px;
+}
+
+h3{
+ color: var(--VeryDarkBlue);
+}
+
+body {
+ min-height: 100vh;
+ scroll-behavior: smooth;
+ text-rendering: optimizeSpeed;
+ line-height: 1.5;
+ font-family: 'Kumbh Sans', sans-serif;
+ font-size: 18px;
+ font-weight: 400;
+ display: flex;
+ display: -webkit-box;
+ display: -ms-flexbox;
+ -webkit-box-orient: vertical;
+ -webkit-box-direction: normal;
+ -ms-flex-direction: column;
+ -webkit-box-pack: center;
+ -ms-flex-pack: center;
+ -webkit-box-align: center;
+ -ms-flex-align: center;
+ flex-direction: column;
+ align-items: center;
+ align-content: center;
+ justify-content: center;
+ text-align: center;
+ letter-spacing: 0.5px;
+ background: url(images/bg-pattern-top.svg) top -500px left -200px, url(images/bg-pattern-bottom.svg) bottom -600px right -150px, var(--DarkCyan);
+ background-repeat: no-repeat;
+
+}
+
+main{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ align-content: center;
+ justify-content: center;
+ text-align: center;
+ background: whitesmoke;
+ border-radius: 5%;
+ width: 350px;
+ height: 400px;
+ position: relative;
+ overflow: hidden;
+ margin: auto;
+ box-shadow: rgba(0, 0, 0, 0.4) 0px 10px 200px, rgba(0, 0, 0, 0.33) 0px 10px 20px;
+ cursor: pointer;
+}
+
+.top-container img{
+ width: 100%;
+ margin-top: -5%;
+}
+
+.description-text{
+ transform: translateY(-50%);
+}
+
+.photo img{
+ border-radius: 50%;
+ border: 5px solid whitesmoke;
+ transform: translateY(-50%);
+}
+
+.name-box .bottom-container{
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: space-evenly;
+ border-top: 1.5px solid var(--DarkGray);
+ letter-spacing: 1px;
+}
+
+.bottom-item{
+ margin: 20px;
+}
+
+.title{
+ font-size: 14px;
+}
+
+
+
