@@ -43,5 +43,5 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 - ## Author
 
-- Website - ([https://www.your-site.com)](https://grinchcreator.github.io/Personal-Website/)
+- Website - https://grinchcreator.github.io/Personal-Website/)
 - Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/grinchcreator)
